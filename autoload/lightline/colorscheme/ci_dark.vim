@@ -1,3 +1,8 @@
+" ------------------------------------------------------------------------
+" Copyright 2020 github.com/chuling <meetchuling@gmail.com>
+" SPDX-License-Identifier: MIT OR Apache-2.0
+" ------------------------------------------------------------------------
+
 let s:colors = ci_dark#get_colors()
 
 let s:p = { 'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {} }

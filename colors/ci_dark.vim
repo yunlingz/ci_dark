@@ -1,3 +1,8 @@
+" ------------------------------------------------------------------------
+" Copyright 2020 github.com/chuling <meetchuling@gmail.com>
+" SPDX-License-Identifier: MIT OR Apache-2.0
+" ------------------------------------------------------------------------
+
 if has('nvim')
   highlight! clear
   syntax reset
@@ -157,23 +162,22 @@ call s:HL('Todo', s:colors.yellow, s:colors.none)
 
 " coc.nvim
 " ----------------------------------------------------
-call s:HL('CocErrorSign', s:colors.red, s:colors.none, s:colors.none)
-call s:HL('CocWarningSign', s:colors.yellow, s:colors.none, s:colors.none)
-call s:HL('CocInfoSign', s:colors.green, s:colors.none, s:colors.none)
-call s:HL('CocHintSign', s:colors.gray, s:colors.none, s:colors.none)
+call s:HL('CocErrorSign', s:colors.red, s:colors.none)
+call s:HL('CocWarningSign', s:colors.yellow, s:colors.none)
+call s:HL('CocInfoSign', s:colors.green, s:colors.none)
+call s:HL('CocHintSign', s:colors.gray, s:colors.none)
 " ----------------------------------------------------
 call s:HL('CocErrorHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('CocWarningHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('CocInfoHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('CocHintHighlight', s:colors.none, s:colors.none, s:colors.underline)
 
-
 " vim-lsp
 " ----------------------------------------------------
-call s:HL('LspErrorText', s:colors.red, s:colors.none, s:colors.none)
-call s:HL('LspWarningText', s:colors.yellow, s:colors.none, s:colors.none)
-call s:HL('LspInformationText', s:colors.green, s:colors.none, s:colors.none)
-call s:HL('LspHintText', s:colors.gray, s:colors.none, s:colors.none)
+call s:HL('LspErrorText', s:colors.red, s:colors.none)
+call s:HL('LspWarningText', s:colors.yellow, s:colors.none)
+call s:HL('LspInformationText', s:colors.green, s:colors.none)
+call s:HL('LspHintText', s:colors.gray, s:colors.none)
 " ----------------------------------------------------
 call s:HL('LspErrorHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('LspWarningHighlight', s:colors.none, s:colors.none, s:colors.underline)
