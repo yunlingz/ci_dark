@@ -17,7 +17,7 @@ let s:colors.gray = '#959da5'
 
 let s:colors.foreground = s:colors.white
 let s:colors.background = s:colors.black
-let s:colors.blackground_lighter = '#2d3237'
+let s:colors.background_lighter = '#2d3237'
 
 let s:colors.selection_bg = '#c8c8fa'
 let s:colors.selection_fg = s:colors.background

@@ -194,7 +194,6 @@ call s:HL('ALEError', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEWarning', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 
-
 " rainbow
 " ----------------------------------------------------
 if !exists('g:rainbow_conf')
