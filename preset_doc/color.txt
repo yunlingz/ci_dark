@@ -22,5 +22,5 @@ cursor_guide #2f363d
 --------------------------
 split #454d56
 --------------------------
-win_bg #2f363d
+win_bg #3a3f43
 selected_bg #1269d3
