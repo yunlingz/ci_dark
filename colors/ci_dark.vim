@@ -184,6 +184,17 @@ call s:HL('LspWarningHighlight', s:colors.none, s:colors.none, s:colors.underlin
 call s:HL('LspInformationHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('LspHintHighlight', s:colors.none, s:colors.none, s:colors.underline)
 
+" ale
+" ----------------------------------------------------
+call s:HL('ALEErrorSign', s:colors.red, s:colors.none)
+call s:HL('ALEWarningSign', s:colors.yellow, s:colors.none)
+call s:HL('ALEInfoSign', s:colors.green, s:colors.none)
+" ----------------------------------------------------
+call s:HL('ALEError', s:colors.none, s:colors.none, s:colors.underline)
+call s:HL('ALEWarning', s:colors.none, s:colors.none, s:colors.underline)
+call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
+
+
 " rainbow
 " ----------------------------------------------------
 if !exists('g:rainbow_conf')
