@@ -1,0 +1,26 @@
+base color:
+--------------------------
+black #24292e
+red #f97583
+green #85e89d
+yellow #ffea7f
+blue #79b8ff
+magenta #b392f0
+cyan #73e3ff
+white #f6f8fa
+gray #959da5
+--------------------------
+foreground white
+background black
+--------------------------
+selection_bg #c8c8fa
+selection_fg background
+--------------------------
+cursor_bg green
+cursor_fg background
+cursor_guide #2f363d
+--------------------------
+split #454d56
+--------------------------
+win_bg #2f363d
+selected_bg #1269d3
