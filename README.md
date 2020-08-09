@@ -1,10 +1,14 @@
 # CI Dark
 
-![preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark.png)
+![nvim preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark_nvim.png)
+
+![term preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark_term.png)
 
 ## Usage
 
-iTerm color preset: [ci_dark.itermcolors](term/ci_dark.itermcolors)
+iTerm color preset: [ci_dark.itermcolors](term/)
+
+Neovim/Vim
 
 ```viml
 syntax on
@@ -14,6 +18,8 @@ let g:lightline = {
   \ 'colorscheme': 'ci_dark',
 }
 ```
+
+[basic color preset](preset_doc/color.txt)
 
 ## License
 
