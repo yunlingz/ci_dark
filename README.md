@@ -11,6 +11,9 @@ iTerm color preset: [ci_dark.itermcolors](term/)
 Neovim/Vim
 
 ```viml
+Plug 'chuling/ci_dark'
+Plug 'luochen1990/rainbow'
+
 syntax on
 set termguicolors
 colorscheme ci_dark
