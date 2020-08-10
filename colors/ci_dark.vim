@@ -194,6 +194,16 @@ call s:HL('ALEError', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEWarning', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('ALEInfo', s:colors.none, s:colors.none, s:colors.underline)
 
+" vim-signify/gitgutter
+" ----------------------------------------------------
+call s:HL('SignifySignAdd', s:colors.green, s:colors.none)
+call s:HL('SignifySignChange', s:colors.yellow, s:colors.none)
+call s:HL('SignifySignDelete', s:colors.red, s:colors.none)
+" ----------------------------------------------------
+call s:HL('GitGutterAdd', s:colors.green, s:colors.none)
+call s:HL('GitGutterChange', s:colors.yellow, s:colors.none)
+call s:HL('GitGutterDelete', s:colors.red, s:colors.none)
+
 " rainbow
 " ----------------------------------------------------
 if !exists('g:rainbow_conf')
