@@ -128,9 +128,9 @@ call s:HL('Comment', s:colors.gray, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Constant', s:colors.foreground, s:colors.none)
 call s:HL('String', s:colors.green, s:colors.none)
-call s:HL('Number', s:colors.blue, s:colors.none)
-call s:HL('Boolean', s:colors.blue, s:colors.none)
-call s:HL('Float', s:colors.blue, s:colors.none)
+call s:HL('Number', s:colors.cyan, s:colors.none)
+call s:HL('Boolean', s:colors.cyan, s:colors.none)
+call s:HL('Float', s:colors.cyan, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Identifier', s:colors.yellow, s:colors.none)
 call s:HL('Function', s:colors.blue, s:colors.none)
