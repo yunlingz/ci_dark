@@ -128,9 +128,9 @@ call s:HL('Comment', s:colors.gray, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Constant', s:colors.foreground, s:colors.none)
 call s:HL('String', s:colors.yellow, s:colors.none)
-call s:HL('Number', s:colors.foreground, s:colors.none, s:colors.bold)
-call s:HL('Boolean', s:colors.foreground, s:colors.none, s:colors.bold)
-call s:HL('Float', s:colors.foreground, s:colors.none, s:colors.bold)
+call s:HL('Number', s:colors.foreground, s:colors.none)
+call s:HL('Boolean', s:colors.foreground, s:colors.none)
+call s:HL('Float', s:colors.foreground, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Identifier', s:colors.foreground, s:colors.none)
 call s:HL('Function', s:colors.foreground, s:colors.none)
@@ -138,20 +138,20 @@ call s:HL('Function', s:colors.foreground, s:colors.none)
 call s:HL('Statement', s:colors.magenta, s:colors.none, s:colors.bold)
 call s:HL('Conditional', s:colors.cyan, s:colors.none, s:colors.bold)
 call s:HL('Repeat', s:colors.cyan, s:colors.none, s:colors.bold)
-call s:HL('Operator', s:colors.magenta, s:colors.none, s:colors.bold)
+call s:HL('Operator', s:colors.magenta, s:colors.none)
 call s:HL('Keyword', s:colors.magenta, s:colors.none, s:colors.bold)
 call s:HL('Exception', s:colors.cyan, s:colors.none, s:colors.bold)
 " ----------------------------------------------------
-call s:HL('PreProc', s:colors.cyan, s:colors.none)
-call s:HL('Include', s:colors.cyan, s:colors.none)
+call s:HL('PreProc', s:colors.blue, s:colors.none)
+call s:HL('Include', s:colors.blue, s:colors.none)
 call s:HL('Define', s:colors.blue, s:colors.none)
-call s:HL('Macro', s:colors.foreground, s:colors.none)
+call s:HL('Macro', s:colors.green, s:colors.none)
 call s:HL('PreCondit', s:colors.green, s:colors.none)
 " ----------------------------------------------------
-call s:HL('Type', s:colors.green, s:colors.none, s:colors.bold)
-call s:HL('StorageClass', s:colors.green, s:colors.none, s:colors.bold)
-call s:HL('Structure', s:colors.magenta, s:colors.none, s:colors.bold)
-call s:HL('Typedef', s:colors.green, s:colors.none, s:colors.bold)
+call s:HL('Type', s:colors.green, s:colors.none)
+call s:HL('StorageClass', s:colors.green, s:colors.none)
+call s:HL('Structure', s:colors.magenta, s:colors.none)
+call s:HL('Typedef', s:colors.green, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Special', s:colors.cyan, s:colors.none)
 " ----------------------------------------------------
@@ -210,10 +210,7 @@ if !exists('g:rainbow_conf')
   let g:rainbow_conf = {}
 endif
 if !has_key(g:rainbow_conf, 'guifgs')
-  let g:rainbow_conf['guifgs'] = [s:colors.cyan, s:colors.yellow, s:colors.magenta]
-endif
-if !has_key(g:rainbow_conf, 'guis')
-  let g:rainbow_conf['guis'] = [s:colors.bold]
+  let g:rainbow_conf['guifgs'] = [s:colors.cyan, s:colors.yellow, s:colors.red]
 endif
 
 " ---------------------------------------------------------------------
