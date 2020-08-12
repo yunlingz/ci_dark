@@ -148,10 +148,10 @@ call s:HL('Define', s:colors.blue, s:colors.none)
 call s:HL('Macro', s:colors.green, s:colors.none)
 call s:HL('PreCondit', s:colors.green, s:colors.none)
 " ----------------------------------------------------
-call s:HL('Type', s:colors.green, s:colors.none)
-call s:HL('StorageClass', s:colors.green, s:colors.none)
-call s:HL('Structure', s:colors.magenta, s:colors.none)
-call s:HL('Typedef', s:colors.green, s:colors.none)
+call s:HL('Type', s:colors.green, s:colors.none, s:colors.bold)
+call s:HL('StorageClass', s:colors.green, s:colors.none, s:colors.bold)
+call s:HL('Structure', s:colors.magenta, s:colors.none, s:colors.bold)
+call s:HL('Typedef', s:colors.green, s:colors.none, s:colors.bold)
 " ----------------------------------------------------
 call s:HL('Special', s:colors.cyan, s:colors.none)
 " ----------------------------------------------------
