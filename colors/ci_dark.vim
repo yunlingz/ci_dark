@@ -86,7 +86,7 @@ call s:HL('CursorLineNr', s:colors.foreground, s:colors.none)
 call s:HL('MatchParen', s:colors.background, s:colors.red)
 " ----------------------------------------------------
 call s:HL('ModeMsg', s:colors.foreground, s:colors.none)
-call s:HL('MoreMsg', s:colors.red, s:colors.none)
+call s:HL('MoreMsg', s:colors.green, s:colors.none)
 call s:HL('NonText', s:colors.gray, s:colors.none)
 " base color
 call s:HL('Normal', s:colors.foreground, s:colors.background)
