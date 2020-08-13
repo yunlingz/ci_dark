@@ -219,7 +219,7 @@ if !exists('g:indentLine_color_gui')
   let g:indentLine_color_gui = s:colors.split
 endif
 if !exists('g:indentLine_char_list')
-  let g:indentLine_char_list = ['│']
+  let g:indentLine_char_list = ['▏']
 endif
 
 " ---------------------------------------------------------------------
