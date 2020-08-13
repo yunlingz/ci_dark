@@ -213,6 +213,15 @@ if !has_key(g:rainbow_conf, 'guifgs')
   let g:rainbow_conf['guifgs'] = [s:colors.cyan, s:colors.yellow, s:colors.red]
 endif
 
+" indentline
+" ----------------------------------------------------
+if !exists('g:indentLine_color_gui')
+  let g:indentLine_color_gui = s:colors.split
+endif
+if !exists('g:indentLine_char_list')
+  let g:indentLine_char_list = ['│']
+endif
+
 " ---------------------------------------------------------------------
 if has('nvim')
   let g:terminal_color_0 = s:colors.black
