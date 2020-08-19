@@ -76,8 +76,8 @@ call s:HL('ErrorMsg', s:colors.red, s:colors.none)
 " ----------------------------------------------------
 call s:HL('VertSplit', s:colors.split, s:colors.none)
 " ----------------------------------------------------
-call s:HL('Folded', s:colors.foreground, s:colors.gray)
-call s:HL('FoldColumn', s:colors.foreground, s:colors.none)
+call s:HL('Folded', s:colors.background, s:colors.magenta, s:colors.bold)
+call s:HL('FoldColumn', s:colors.magenta, s:colors.none, s:colors.bold)
 " ----------------------------------------------------
 call s:HL('SignColumn', s:colors.none, s:colors.none)
 call s:HL('IncSearch', s:colors.background, s:colors.magenta)
