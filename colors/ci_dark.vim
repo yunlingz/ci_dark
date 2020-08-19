@@ -219,6 +219,11 @@ if !exists('g:indentLine_color_gui')
   let g:indentLine_color_gui = s:colors.split
 endif
 
+" vim-sneak
+" ----------------------------------------------------
+call s:HL('Sneak', s:colors.background, s:colors.yellow, s:colors.bold)
+call s:HL('SneakScope', s:colors.background, s:colors.foreground)
+
 " ---------------------------------------------------------------------
 if has('nvim')
   let g:terminal_color_0 = s:colors.black
