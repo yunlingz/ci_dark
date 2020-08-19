@@ -31,6 +31,8 @@ let s:colors.split = '#454d56'
 let s:colors.win_bg = '#3a3f43'
 let s:colors.selected_bg = '#1269d3'
 
+let s:colors.sneak_bg = '#b32ef0'
+
 let s:colors.none = 'NONE'
 let s:colors.underline = 'underline'
 let s:colors.bold = 'bold'

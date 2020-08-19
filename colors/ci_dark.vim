@@ -221,7 +221,7 @@ endif
 
 " vim-sneak
 " ----------------------------------------------------
-call s:HL('Sneak', s:colors.background, s:colors.yellow, s:colors.bold)
+call s:HL('Sneak', s:colors.foreground, s:colors.sneak_bg, s:colors.bold)
 call s:HL('SneakScope', s:colors.background, s:colors.foreground)
 
 " ---------------------------------------------------------------------
