@@ -32,4 +32,4 @@ let g:lightline = {
 
 ## License
 
-MIT OR Apache-2.0
+[COPYING](COPYING)
