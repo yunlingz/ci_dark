@@ -218,8 +218,19 @@ call s:HL('GitGutterDelete', s:colors.red, s:colors.none)
 if !exists('g:rainbow_conf')
   let g:rainbow_conf = {}
 endif
+
 if !has_key(g:rainbow_conf, 'guifgs')
   let g:rainbow_conf['guifgs'] = [s:colors.cyan, s:colors.yellow, s:colors.red]
+endif
+
+if !has_key(g:rainbow_conf, 'separately')
+  let g:rainbow_conf['separately'] = {}
+endif
+
+if !has_key(g:rainbow_conf['separately'], 'lisp')
+  let g:rainbow_conf['separately']['lisp'] = {
+    \ 'guifgs': g:rainbow_conf['guifgs'],
+    \ }
 endif
 
 " indentline
