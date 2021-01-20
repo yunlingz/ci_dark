@@ -136,7 +136,7 @@ call s:HL('WildMenu', s:colors.background, s:colors.cyan)
 call s:HL('Comment', s:colors.gray, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Constant', s:colors.foreground, s:colors.none)
-call s:HL('String', s:colors.yellow, s:colors.none)
+call s:HL('String', s:colors.green, s:colors.none)
 call s:HL('Number', s:colors.cyan, s:colors.none)
 call s:HL('Boolean', s:colors.cyan, s:colors.none)
 call s:HL('Float', s:colors.cyan, s:colors.none)
@@ -157,10 +157,10 @@ call s:HL('Define', s:colors.blue, s:colors.none)
 call s:HL('Macro', s:colors.green, s:colors.none)
 call s:HL('PreCondit', s:colors.green, s:colors.none)
 " ----------------------------------------------------
-call s:HL('Type', s:colors.green, s:colors.none, s:colors.bold)
-call s:HL('StorageClass', s:colors.green, s:colors.none, s:colors.bold)
+call s:HL('Type', s:colors.yellow, s:colors.none, s:colors.bold)
+call s:HL('StorageClass', s:colors.yellow, s:colors.none, s:colors.bold)
 call s:HL('Structure', s:colors.magenta, s:colors.none, s:colors.bold)
-call s:HL('Typedef', s:colors.green, s:colors.none, s:colors.bold)
+call s:HL('Typedef', s:colors.yellow, s:colors.none, s:colors.bold)
 " ----------------------------------------------------
 call s:HL('Special', s:colors.cyan, s:colors.none)
 " ----------------------------------------------------

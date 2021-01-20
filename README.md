@@ -13,13 +13,21 @@ Neovim/Vim
 ```viml
 Plug 'chuling/ci_dark'
 
-" optional
+" optional rainbow parentheses improved
+" *ci_dark* has a built-in automated configuration for *rainbow*
+" there is no need to specify `g:rainbow_conf` manually
 Plug 'luochen1990/rainbow'
 
+" true colors are required
 syntax on
 set termguicolors
+
+" keywords bolded, disabled(=0) by default
+let g:ci_dark_enable_bold = 1
+
 colorscheme ci_dark
 
+" better vertsplit char
 set fillchars+=vert:│
 
 let g:airline_theme = 'ci_dark'

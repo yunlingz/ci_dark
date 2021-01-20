@@ -44,7 +44,11 @@ let s:colors.sneak_bg = '#b32ef0'
 
 let s:colors.none = 'NONE'
 let s:colors.underline = 'underline'
-let s:colors.bold = 'bold'
+
+let s:colors.bold = 'NONE'
+if get(g:, 'ci_dark_enable_bold', 0) == 1
+  let s:colors.bold = 'bold'
+endif
 
 function! ci_dark#get_colors() abort
   return s:colors
