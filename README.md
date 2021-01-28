@@ -2,7 +2,11 @@
 
 ## Preview
 
+### Vim/Neovim
+
 ![nvim preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark/nvim.png)
+
+### Terminal
 
 ![term preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark/term.png)
 
