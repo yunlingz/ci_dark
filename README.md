@@ -1,8 +1,10 @@
 # CI Dark
 
-![nvim preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark_nvim.png)
+## Preview
 
-![term preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark_term.png)
+![nvim preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark/nvim.png)
+
+![term preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark/term.png)
 
 ## Usage
 
