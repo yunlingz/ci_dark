@@ -153,7 +153,8 @@ call s:HL('Exception', s:colors.cyan, s:colors.none, s:colors.bold)
 " ----------------------------------------------------
 call s:HL('PreProc', s:colors.cyan, s:colors.none)
 call s:HL('Include', s:colors.cyan, s:colors.none)
-call s:HL('Define', s:colors.blue, s:colors.none)
+" <Macro> same as <Define>
+call s:HL('Define', s:colors.yellow, s:colors.none)
 call s:HL('Macro', s:colors.yellow, s:colors.none)
 call s:HL('PreCondit', s:colors.cyan, s:colors.none)
 " ----------------------------------------------------
