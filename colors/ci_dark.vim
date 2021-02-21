@@ -1,16 +1,9 @@
-" Copyright (c) 2020 Ling CHU <meetchuling@gmail.com>
+" SPDX-License-Identifier: MIT
 "
-" Permission to use, copy, modify, and distribute this software for any
-" purpose with or without fee is hereby granted, provided that the above
-" copyright notice and this permission notice appear in all copies.
+" Copyright 2021 Ling CHU <meetchuling@gmail.com>
 "
-" THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-" WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-" MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-" ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-" WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-" ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-" OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+" This file is available under the MIT License;
+" you may not use this file except in compliance with the MIT License.
 
 if has('nvim')
   highlight! clear
@@ -137,6 +130,7 @@ call s:HL('Comment', s:colors.gray, s:colors.none)
 " ----------------------------------------------------
 call s:HL('Constant', s:colors.foreground, s:colors.none)
 call s:HL('String', s:colors.green, s:colors.none)
+call s:HL('Character', s:colors.green, s:colors.none)
 call s:HL('Number', s:colors.cyan, s:colors.none)
 call s:HL('Boolean', s:colors.cyan, s:colors.none)
 call s:HL('Float', s:colors.cyan, s:colors.none)

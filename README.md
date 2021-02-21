@@ -46,4 +46,4 @@ let g:lightline = {
 
 ## License
 
-[COPYING](COPYING)
+[MIT](LICENSE-MIT)
