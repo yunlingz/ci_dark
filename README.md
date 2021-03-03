@@ -46,4 +46,4 @@ let g:lightline = {
 
 ## License
 
-[MIT](LICENSE-MIT)
+[Apache-2.0](LICENSE)
