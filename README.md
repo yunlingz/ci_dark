@@ -4,11 +4,11 @@
 
 ### Vim/Neovim
 
-![nvim preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark/nvim.png)
+![nvim preview](https://raw.githubusercontent.com/yunlingz/vim-equinusocio-material-preview/master/ci_dark/nvim.png)
 
 ### Terminal
 
-![term preview](https://raw.githubusercontent.com/chuling/vim-equinusocio-material-preview/master/ci_dark/term.png)
+![term preview](https://raw.githubusercontent.com/yunlingz/vim-equinusocio-material-preview/master/ci_dark/term.png)
 
 ## Usage
 
@@ -17,7 +17,7 @@ iTerm color preset: [ci_dark.itermcolors](term/)
 Neovim/Vim
 
 ```viml
-Plug 'chuling/ci_dark'
+Plug 'yunlingz/ci_dark'
 
 " optional rainbow parentheses improved
 " *ci_dark* has a built-in automated configuration for *rainbow*
