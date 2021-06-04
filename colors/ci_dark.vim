@@ -181,6 +181,8 @@ call s:HL('CocErrorHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('CocWarningHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('CocInfoHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('CocHintHighlight', s:colors.none, s:colors.none, s:colors.underline)
+" ----------------------------------------------------
+call s:HL('CocFadeOut', s:colors.none, s:colors.none, s:colors.underline)
 
 " vim-lsp
 " ----------------------------------------------------
