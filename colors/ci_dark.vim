@@ -96,7 +96,7 @@ call s:HL('PmenuSbar', s:colors.none, s:colors.win_bg)
 call s:HL('PmenuThumb', s:colors.none, s:colors.foreground)
 " ----------------------------------------------------
 call s:HL('Question', s:colors.red, s:colors.none)
-call s:HL('QuickFixLine', s:colors.foreground, s:colors.selection_bg)
+call s:HL('QuickFixLine', s:colors.foreground, s:colors.selected_bg)
 call s:HL('Search', s:colors.background, s:colors.magenta)
 call s:HL('SpecialKey', s:colors.gray, s:colors.none)
 " ----------------------------------------------------
