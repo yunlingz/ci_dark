@@ -174,6 +174,13 @@ call s:HL('CocHintHighlight', s:colors.none, s:colors.none, s:colors.underline)
 " ----------------------------------------------------
 call s:HL('CocFadeOut', s:colors.gray, s:colors.none, s:colors.underline)
 
+" nvim-lsp
+" ----------------------------------------------------
+call s:HL('LspDiagnosticsDefaultError', s:colors.red, s:colors.none)
+call s:HL('LspDiagnosticsDefaultWarning', s:colors.yellow, s:colors.none)
+call s:HL('LspDiagnosticsDefaultInformation', s:colors.green, s:colors.none)
+call s:HL('LspDiagnosticsDefaultHint', s:colors.gray, s:colors.none)
+
 " vim-lsp
 " ----------------------------------------------------
 call s:HL('LspErrorText', s:colors.red, s:colors.none)
