@@ -1,4 +1,4 @@
-" SPDX-License-Identifier: MIT
+" SPDX-License-Identifier: BSD-2-Clause
 "
 " Copyright 2021 Zhu Yun-ling <yunling.zhu@outlook.com>
 
