@@ -193,6 +193,14 @@ call s:HL('LspWarningHighlight', s:colors.none, s:colors.none, s:colors.underlin
 call s:HL('LspInformationHighlight', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('LspHintHighlight', s:colors.none, s:colors.none, s:colors.underline)
 
+" nvim lsp
+" <https://github.com/neovim/neovim/pull/15894/files>
+" ----------------------------------------------------
+call s:HL('DiagnosticError', s:colors.red, s:colors.none)
+call s:HL('DiagnosticWarn', s:colors.yellow, s:colors.none)
+call s:HL('DiagnosticInfo', s:colors.green, s:colors.none)
+call s:HL('DiagnosticHint', s:colors.gray, s:colors.none)
+
 " ale
 " ----------------------------------------------------
 call s:HL('ALEErrorSign', s:colors.red, s:colors.none)
