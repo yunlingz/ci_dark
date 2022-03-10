@@ -158,7 +158,7 @@ call s:HL('Special', s:colors.cyan, s:colors.none)
 call s:HL('Underlined', s:colors.none, s:colors.none, s:colors.underline)
 call s:HL('Ignore', s:colors.none, s:colors.none)
 call s:HL('Error', s:colors.red, s:colors.none)
-call s:HL('Todo', s:colors.yellow, s:colors.none)
+call s:HL('Todo', s:colors.background, s:colors.yellow)
 
 " coc.nvim
 " ----------------------------------------------------
