@@ -47,3 +47,7 @@ let g:lightline = {
 ## License
 
 [BSD-2-Clause](LICENSE)
+
+## Other
+
+[my vim configurations](https://github.com/yunlingz/config-vim)

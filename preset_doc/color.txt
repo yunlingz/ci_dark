@@ -13,8 +13,8 @@ gray #959da5
 foreground white
 background black
 --------------------------
-selection_bg #c8c8fa
-selection_fg background
+selection_bg #3c4553
+selection_fg foreground
 --------------------------
 cursor_bg green
 cursor_fg background
