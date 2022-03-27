@@ -4,7 +4,14 @@
 
 let s:colors = {}
 
+let s:emitting = get(g:, 'ci_dark_emitting', 0) == 1
+
 let s:colors.black = '#24292e'
+" --
+if s:emitting
+  let s:colors.black = '#000000'
+endif
+" --
 let s:colors.red = '#f97583'
 let s:colors.green = '#85e89d'
 let s:colors.yellow = '#ffea7f'
@@ -12,6 +19,11 @@ let s:colors.blue = '#79b8ff'
 let s:colors.magenta = '#b392f0'
 let s:colors.cyan = '#73e3ff'
 let s:colors.white = '#f6f8fa'
+" --
+if s:emitting
+  let s:colors.white = '#f8f8f8'
+endif
+" --
 let s:colors.gray = '#959da5'
 
 let s:colors.foreground = s:colors.white

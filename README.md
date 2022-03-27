@@ -31,15 +31,17 @@ set termguicolors
 " keywords bolded, disabled(=0) by default
 let g:ci_dark_enable_bold = 1
 
+" OLED friendly self-illuminating by pure black background
+" disabled(=0) by default
+" let g:ci_dark_emitting = 1
+
 colorscheme ci_dark
 
 " better vertsplit char
 set fillchars+=vert:│
 
 let g:airline_theme = 'ci_dark'
-let g:lightline = {
-  \ 'colorscheme': 'ci_dark',
-}
+let g:lightline.colorscheme = 'ci_dark'
 ```
 
 [basic color preset](preset_doc/color.txt)
